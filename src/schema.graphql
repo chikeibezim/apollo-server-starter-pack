@@ -3,7 +3,7 @@ type Query {
 }
 
 type Mutation {
-    addItem(name: String!, description: String!):[List!]
+    addItem(name: String!, description: String!):List!
 }
 
 type List {
