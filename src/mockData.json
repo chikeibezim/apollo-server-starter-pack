@@ -1,0 +1,13 @@
+[
+    {
+        "id": 1,
+        "name": "Javascript",
+        "description": "Javascript is awesome"
+
+    },
+    {
+        "id": 2,
+        "name": "Typescript",
+        "description": "Typescript is great"
+    }
+]

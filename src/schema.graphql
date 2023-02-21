@@ -1,0 +1,13 @@
+type Query {
+    lists: [List!]!
+}
+
+type Mutation {
+    addItem(name: String!, description: String!):[List!]
+}
+
+type List {
+    id: ID!
+    name: String
+    description: String
+}
